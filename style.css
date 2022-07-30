@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body{
+    font-family: "Noto Serif", sans-serif;
+    line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 important;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(4, 252, 252, 0.7), rgba(132, 132, 136, 0.7));
+    z-index: -1;
+}
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 14px 22px;
+    transition: all 0.4s ease;
+}
+
+.btn-main{
+    background: linear-gradient(to left,#04fcfc, #848488);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.btn:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.navbar{
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
