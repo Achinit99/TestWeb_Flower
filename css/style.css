@@ -4,13 +4,14 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-weight: 900 important;
+    font-weight: 700;
 }
 
 a{
     text-decoration: none;
     transition: all 0.4s ease;
     font-weight: 750;
+    color: #20212c;
 }
 
 img{
@@ -77,6 +78,10 @@ section{
     border-radius: 100px;
 }
 
+.video-btn i{
+    font-size: 32px;
+}
+
 .navbar{
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
@@ -129,3 +134,59 @@ section{
     font-size: 54px;
 }
 
+.reviews{
+    box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+
+.reviews .person{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding-bottom: 18px;
+}
+
+.reviews .person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.reviews .stars{
+    color: orangered;
+}
+
+from .form-control{
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(225, 225, 225, 0.5);
+}
+
+from .form-control:focus{
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+from input .form-control{
+    height: 54px;
+}
+
+from .form-control::placeholder{
+    color: #fff;
+}
+
+footer{
+    background: linear-gradient(to right,#04fcfc, #848488);
+    color: #fff;  
+}
+
+footer a{
+    color: #fff;
+    font-size: 20px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 18px;
+}
