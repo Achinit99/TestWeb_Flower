@@ -86,6 +86,10 @@ section{
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 
+.nav-item{
+    font-size: 1.1rem;
+}
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     background: -webkit-linear-gradient(#04fcfc, #848488);
   -webkit-background-clip: text;
@@ -125,6 +129,10 @@ section{
 
 .service .service-img .icon i{
     font-size: 36px;
+}
+
+.align-items-lg-start{
+    size: 3rem;
 }
 
 .features i{
